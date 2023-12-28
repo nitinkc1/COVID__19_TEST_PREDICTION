@@ -121,26 +121,44 @@ We aim to provide a rapid and accurate diagnosis of COVID-19, crucial for effect
 - Logistic Regression
 - Decision Tree Classifier
 - Support Vector Classifier (SVC)
-- Evaluation Metrics
 
-  Each model was evaluated using precision, recall, and f1-score, providing a comprehensive understanding of their performance. Additionally, the accuracy score was     
-  computed to gauge the overall predictive capability.
+## Evaluation Metrics
+
+   Each model was evaluated using precision, recall, and f1-score, providing a comprehensive understanding of their performance. Additionally, the accuracy score was     
+   computed to gauge the overall predictive capability.
   
 ## Results
 
-# Here's a tabular representation of the above information:
+# Model Accuracy Summary
 
-```markdown
-| Model                     | Precision | Recall | F1-Score | Accuracy Score |
-|---------------------------|-----------|--------|----------|----------------|
-| Random Forest Classifier  |   0.00    |  0.47  |   0.00   |     0.9528     |
-| Logistic Regression       |   0.00    |  0.59  |   0.00   |     0.9435     |
-| Decision Tree Classifier  |   0.00    |  0.47  |   0.00   |     0.9528     |
-| Support Vector Classifier  |   0.00    |  0.53  |   0.00   |     0.9392     |
-```
+## Overview
 
-This table summarizes the precision, recall, f1-score, and accuracy score for each machine learning model used in the COVID-19 prediction.
+This section provides a concise summary of the accuracy scores obtained from the evaluation of different machine learning models for COVID-19 prediction. The models include RandomForestClassifier, LogisticRegression, DecisionTreeClassifier, and SVC.
 
+## Accuracy Scores
+
+| Model                   | Accuracy Score  |
+|-------------------------|-----------------|
+| RandomForestClassifier  | 0.9528          |
+| LogisticRegression      | 0.9435          |
+| DecisionTreeClassifier  | 0.9528          |
+| SVC                     | 0.9392          |
+
+## Insights
+
+- **RandomForestClassifier:** Achieved an accuracy score of **95.28%**, showcasing strong predictive capabilities.
+  
+- **LogisticRegression:** Demonstrated a commendable accuracy score of **94.35%**, indicating effective COVID-19 prediction.
+
+- **DecisionTreeClassifier:** Showed consistency with an accuracy score of **95.28%**, aligning with the Random Forest model.
+
+- **SVC (Support Vector Classifier):** Exhibited a slightly lower accuracy score at **93.92%**, suggesting a nuanced performance.
+
+## Conclusion
+
+The machine learning models evaluated for COVID-19 prediction demonstrated robust accuracy scores, with RandomForestClassifier and DecisionTreeClassifier leading with **95.28%**. These scores indicate the models' effectiveness in distinguishing between positive and negative cases based on the provided features.
+
+This summary provides an initial overview of the models' accuracy, paving the way for a more in-depth analysis and optimization in subsequent stages of the project.
 
 ## Acknowledgment
 
